@@ -1,10 +1,18 @@
-# Generate_handwritten_number
-using PIL to generate handwritten numbers from 1 to 9 and make your handwritten number database/ 生成手写体数字1-9并构建数据集 
+Generate handwritten numbers from 1 to 9;
 
-generate_folders_1to9.py  - generate the folders named by 1-9 in your project dir/在项目目录下新建文件夹1-9;
+For more details, pls visit my blog (in chinese): https://www.cnblogs.com/AdaminXie/p/8379749.html
 
-generate_pngs.py          - generate the random number from 1 to 9 and save the handwritten image(png) into the right num folder/ 生成随机数1-9并生成手写体图像存入本地指定文件夹;
 
-generate_single_png.py    - generate the single image of the handwritten num or char/生成单张手写体的数字/字母/汉字;
+Functions introductions:
 
-you can refer to my blogs(in chinese): https://www.cnblogs.com/AdaminXie/p/8379749.html
+mkdir_for_imgs()
+  新建9个文件夹 Num_1-Num_9，分别用于之后存放数字1-9图片;
+  
+del_imgs()
+ 　删除子文件夹 Num_1-9 中的所有图片;
+
+generate_single()
+   生成单张手写体随机数图片;
+   
+generate_1to9(n):
+  生成 n 次手写体数字 1-9，并存入指定文件夹 Num_1-9;
