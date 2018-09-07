@@ -1,4 +1,4 @@
-Generate handwritten numbers from 1 to 9;
+# Generate handwritten numbers from 1 to 9;
 
 For more details, pls visit my blog (in chinese): https://www.cnblogs.com/AdaminXie/p/8379749.html
 
