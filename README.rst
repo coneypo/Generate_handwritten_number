@@ -12,15 +12,16 @@ Introduction
 #. 旋转和扭曲处理
 #. 得到 “手写体数字” 图片
 
+具体实现的函数:
 
-#. 新建 9 个文件夹 `number_1` 到 `number_9`, 分别用于之后存放数字 1-9 图片;
+#. 新建 9 个文件夹 ``number_1`` 到 ``number_9``, 分别用于之后存放数字 1-9 图片;
 
    .. code-block:: bash
 
       mkdir_for_images()
     
 
-#. 删除子文件夹 number_1~9 中的所有图片;
+#. 删除子文件夹 ``number_1~9`` 中的所有图片;
 
    .. code-block:: bash
 
@@ -32,12 +33,11 @@ Introduction
 
       generate_single()
 
-#. 生成 n 次手写体数字 1-9，并存入指定文件夹 number_1~9;
+#. 生成 n 次手写体数字 1-9，并存入指定文件夹 ``number_1~9``;
 
    .. code-block:: bash
 
-      generate_number_1_to_9(n):
-
+      generate_number_1_to_9(n)
 
 
 生成的手写体数字图片:
