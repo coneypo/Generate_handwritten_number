@@ -4,22 +4,27 @@ Generate handwritten numbers from 1 to 9
 Introduction
 ************
 
-新建空白图像 >>> 生成随机数 1-9 >>> 将数字写到空白图像上 >>> 旋转&扭曲 处理 >>> 得到 “手写体数字”
+生成手写体数字图片的处理顺序:
 
-For more details, please visit my blog (in chinese): https://www.cnblogs.com/AdaminXie/p/8379749.html
+#. 新建空白图像
+#. 生成随机数 1-9
+#. 将数字写到空白图像上
+#. 旋转和扭曲处理
+#. 得到 “手写体数字” 图片
 
-#.新建9个文件夹 Num_1-Num_9，分别用于之后存放数字1-9图片;
+
+#. 新建 9 个文件夹 `number_1` 到 `number_9`, 分别用于之后存放数字 1-9 图片;
 
    .. code-block:: bash
 
-      mkdir_for_imgs()
+      mkdir_for_images()
     
 
-#. 删除子文件夹 Num_1-9 中的所有图片;
+#. 删除子文件夹 number_1~9 中的所有图片;
 
    .. code-block:: bash
 
-      del_imgs()
+      clear_images()
 
 #. 生成单张手写体随机数图片;
 
@@ -27,19 +32,19 @@ For more details, please visit my blog (in chinese): https://www.cnblogs.com/Ada
 
       generate_single()
 
-#. 生成 n 次手写体数字 1-9，并存入指定文件夹 Num_1-Num_9;
+#. 生成 n 次手写体数字 1-9，并存入指定文件夹 number_1~9;
 
    .. code-block:: bash
 
-      generate_1to9(n):
+      generate_number_1_to_9(n):
 
 
 
-生成的手写体数字
+生成的手写体数字图片:
 
-   .. image:: README_Num_2.png
+   .. image:: README_number_2.png
       :align: center
 
-
+For more details, please visit my blog (in chinese): https://www.cnblogs.com/AdaminXie/p/8379749.html;
 
 Thanks for your support.
